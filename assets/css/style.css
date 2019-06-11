@@ -412,6 +412,104 @@ li.a {
 					display: none;
 				}
 
+/* ================================================================================================= */
+/* ================================================================================================= */
+
+
+	.portfolio-links {		
+		cursor: default;
+		display: inline-block;
+		position: relative;
+		text-align: center;
+		top: -1em;
+		vertical-align: middle;
+		width: 90%;
+	}
+
+	.portfolio-links h1 {
+		font-size: 4.35em;
+		font-weight: 900;
+		letter-spacing: -0.035em;
+		line-height: 1em;
+	}
+
+	.portfolio-links p {
+		font-size: 1.25em;
+		margin: 0.75em 0 0.25em 0;
+		opacity: 0.75;
+	}
+
+	.portfolio-links navigation {
+		margin: 1.5em 0 0 0;
+	}
+
+	.portfolio-links navigation li {
+		display: inline-block;
+		height: 5.35em;
+		line-height: 5.885em;
+		position: relative;
+		top: 0;
+		width: 5.35em;
+	}
+
+	.portfolio-links navigation a {
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+		-webkit-touch-callout: none;
+		border: 0;
+		display: inline-block;
+			}
+
+	.portfolio-links navigation a:before {
+		-moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+		border-radius: 100%;
+		border: solid 1px #fff;
+		display: block;
+		font-size: 1.75em;
+		height: 2.5em;
+		line-height: 2.5em;
+		position: relative;
+		text-align: center;
+		top: 0;
+		width: 2.5em;
+	}
+
+	.portfolio-links navigation a:hover {
+		font-size: 1.1em;
+	}
+
+	.portfolio-links navigation a:hover:before {
+		background-color: rgba(255, 255, 255, 0.175);
+		color: #fff;
+	}
+
+	.portfolio-links navigation a:active {
+		font-size: 0.95em;
+		background: none;
+	}
+
+	.portfolio-links navigation a:active:before {
+		background-color: rgba(255, 255, 255, 0.35);
+		color: #fff;
+	}
+
+	.portfolio-links navigation a span {
+		display: none;
+	}
+
+
+
+
+
+
+
+/* ================================================================================================= */
+/* ================================================================================================= */
+
+
+
 /* Twinkling star background============================== */
 @keyframes move-twink-back {
     from {background-position:0 0;}
