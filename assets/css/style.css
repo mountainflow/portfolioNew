@@ -18,6 +18,7 @@ body {
     margin: 0;
     z-index: 20;
 }
+
 img.responsive-bg {
     position: fixed;
     bottom: 0;
@@ -43,6 +44,15 @@ h2.mf-head {
 .full-stack {
     margin-top: 0;
     padding-top: 0;
+}
+
+.naked {
+	
+}
+
+li.a {
+	color: inherit;
+	text-decoration: none;
 }
 
 /* Icon ================================================ */
