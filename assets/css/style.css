@@ -16,14 +16,16 @@ body {
     bottom: 0;
     width: 100%;
     margin: 0;
-    z-index: 20;
+	z-index: 20;
+	border: solid 1px white; 
 }
 
 img.responsive-bg {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: auto;
+	height: auto;
+	border: solid 1px purple;
 }
 
 .gradient {
@@ -118,7 +120,6 @@ li.a {
 
 #header {
 	z-index: 30;
-	width: 100%;
 }
 
 	@-moz-keyframes header {
